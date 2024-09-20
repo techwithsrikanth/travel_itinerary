@@ -48,7 +48,7 @@ const Home = () => {
       console.error('Error fetching suggestions:', error);
     }
   };
-  const genAI = new GoogleGenerativeAI('AIzaSyDyW83H6P2Z9IWdpxYJYBWpIuQ36_cGqnU');
+  const genAI = new GoogleGenerativeAI(process.env.REACT_APP_GOOGLE_API_KEY);
   const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
   const fetchGeocoding = async (location) => {
     try {
