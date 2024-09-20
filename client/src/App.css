@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background 1s ease;
+  }
+  
+  .app-container .form-container {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .login-page .app-container {
+    background: url('https://source.unsplash.com/1600x900/?travel,explore') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .signup-page .app-container {
+    background: url('https://source.unsplash.com/1600x900/?nature,adventure') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .home-page .app-container {
+    background: url('https://source.unsplash.com/1600x900/?sunset,mountain') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
