@@ -1,8 +1,17 @@
-Built a travel itinerary from scratch, implemented using
- --- GOOGLE AUTOCOMPLETE API
- --- GOOGLE GENERATIVE AI API
- --- FETCHING FLIGHTS AND HOTELS API FOR LOCATION
- --- FETCHING IATA CODES BASED ON LOCATION
+# Travel Itinerary Application
+
+Built from scratch using: 
+
+## Technology
+- **MongoDB for storing and saving itineraries and user credentials**
+- **React.js for Frontend and Node.js for backend**
+  
+
+## Features
+- **Google Autocomplete API**: Enhance user experience with location suggestions while typing.
+- **Google Generative AI API**: Generate personalized travel suggestions based on user preferences.
+- **Flight and Hotel API Integration**: Fetch real-time flight and hotel information based on selected locations.
+- **IATA Code Retrieval**: Automatically retrieve IATA codes for destinations to ensure flight bookings.
 
  Attaching some of the screenshots of the same
 
@@ -17,3 +26,6 @@ WE ARE FETCHING THE FLIGHT AND HOTELS DATA FOR EACH OF THE ITINERARY PLAN BEING 
 BELOW IS FOR SAVED ITINERARIES CHECKING, WE CAN RETRIEVE THE DATA THAT IS BEING SAVED BY US FOR EACH ITINERARY
 
 ![img5travel](https://github.com/user-attachments/assets/f9056ce1-116f-43bd-9cab-0ebea4fc0089)
+
+## Improvements needed
+- **Better Routings for better userflow and better CSS for rendering the generated text**
